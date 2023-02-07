@@ -34,6 +34,11 @@ export const OptimizedImg = ({ src, alt, stylesTw, priority = false }) => {
       priority={priority}
       width={500}
       height={500}
+      sizes="(max-width: 320px) 140vw,
+  (max-width: 425px) 120vw,
+  (max-width: 768px) 50vw,
+  (max-width: 1200px) 33vw,
+  25vw"
       src={`https://assets.tysawys.com${src}`}
       alt={alt}
     />
