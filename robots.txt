@@ -1,0 +1,7 @@
+User-agent: Mediapartners-Google
+
+User-agent: *
+Allow:
+# global
+
+sitemap: https://tysawys.com/sitemap.xml
