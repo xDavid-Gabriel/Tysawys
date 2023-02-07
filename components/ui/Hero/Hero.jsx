@@ -22,7 +22,7 @@ import tw from 'twin.macro'
 import { useStateSeoContext } from '../../../context/seo'
 export const Hero = ({
   title = 'Transporte de agua potable las 24 horas',
-  description = 'Contamos con flota propia, atendemos los 365 días del año.',
+  description = 'Contamos con flota propia, atendemos los 365 días del año..',
 }) => {
   const { seo } = useStateSeoContext()
 
